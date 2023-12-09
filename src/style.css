@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&display=swap");
-
 body {
   padding: 0;
   margin: 0;
@@ -14,12 +13,10 @@ body {
   height: 100vh;
   background-color: rgb(90, 89, 89);
 }
-
 .header .head-Wrap {
   height: 250px;
   width: 250px;
 }
-
 .header .head-Wrap .span-Wrapper {
   width: 100%;
   height: 100%;
@@ -30,7 +27,6 @@ body {
   justify-content: center;
   gap: 5px;
 }
-
 .header .head-Wrap .span-Wrapper span {
   display: block;
   height: 15px;
@@ -39,6 +35,4 @@ body {
   transition: all 400ms ease-in 1ms;
 }
 
-.header .head-Wrap .span-Wrapper span.active {
-  background-color: rgb(51, 48, 48);
-}
+/*# sourceMappingURL=style.css.map */
