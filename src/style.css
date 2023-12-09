@@ -4,3 +4,41 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.header {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(90, 89, 89);
+}
+
+.header .head-Wrap {
+  height: 250px;
+  width: 250px;
+}
+
+.header .head-Wrap .span-Wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.header .head-Wrap .span-Wrapper span {
+  display: block;
+  height: 15px;
+  background-color: black;
+  width: 15px;
+  transition: all 400ms ease-in 1ms;
+}
+
+.header .head-Wrap .span-Wrapper span.active {
+  background-color: rgb(51, 48, 48);
+}
